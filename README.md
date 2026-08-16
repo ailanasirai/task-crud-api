@@ -53,6 +53,16 @@ content-type: application/json
 {"id":4,"title":"Buy milk","done":false}
 ```
 
+## Swagger UI
+
+All endpoints, tested live through "Try it out":
+
+![Swagger UI overview](Swagger_UI_Overview_Aila_Nasir.png)
+
+Example of a tested request/response cycle:
+
+![Swagger UI test response](Swagger_UI_Test_Response_Aila_Nasir.png)
+
 ## Proof of persistence
 
 Screenshot below shows `GET /tasks` returning a task that was created **before** the server was restarted, proving the data survived the restart instead of resetting like the Week 2 in-memory version did.
